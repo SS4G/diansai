@@ -1,3 +1,4 @@
+#include<msp430g2553.h>
 int demo_button() {
   P1DIR = BIT0;
   //unsigned char x = 0;

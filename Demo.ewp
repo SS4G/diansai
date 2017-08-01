@@ -62,7 +62,7 @@
         </option>
         <option>
           <name>RTLibraryPath</name>
-          <state>$TOOLKIT_DIR$\LIB\DLIB\dl430xsfn.r43</state>
+          <state>$TOOLKIT_DIR$\LIB\DLIB\dl430fn.r43</state>
         </option>
         <option>
           <name>Input variant</name>
@@ -1869,6 +1869,12 @@
     </settings>
   </configuration>
   <file>
+    <name>$PROJ_DIR$\demo_1602.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\demo_button.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\demo_led.c</name>
   </file>
   <file>
@@ -1876,6 +1882,12 @@
   </file>
   <file>
     <name>$PROJ_DIR$\demo_uart.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\I2C_Sium.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\LCD1602_Sium.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\main.c</name>

@@ -4,11 +4,12 @@ extern int led_demo();
 extern int demo_uart();
 extern int demo_timer();
 extern int demo_button();
+extern int demo_LCD1602();
 #define CPU_CLOCK       8000000
 #define delay_us(us)    __delay_cycles(CPU_CLOCK/1000000*(us))
 #define delay_ms(ms)    __delay_cycles(CPU_CLOCK/1000*(ms))
 int main() {
   WDTCTL = WDTPW + WDTHOLD;
-  //demo_button();
+  demo_LCD1602();
   //return 0; 
 }
