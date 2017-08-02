@@ -21,10 +21,12 @@
 **定义I2C端口
 */
 
+/*
 #define I2C_PORT P1OUT
 #define I2C_DIR  P1DIR
 #define I2C_SCL  BIT2
 #define I2C_SDA  BIT0
+*/
 
 /*
 **对总线两端口的拉低，拉高操作
